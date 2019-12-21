@@ -1,0 +1,6 @@
+---
+ - hosts : all
+   remote_user : root
+   tasks :
+    - name : file cre
+      file : path=/root/xvz state=touch mode=0755
